@@ -8,7 +8,6 @@ url = 'https://wuzzuf.net/search/jobs/?a=hpb%7Cspbg&filters%5Bcountry%5D%5B0%5D=
 
 client = urlopen(url)
 html= client.read()
-html
 client.close()
 
 soup = bs(html,"html.parser")
